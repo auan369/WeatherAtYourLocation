@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather Today</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+
+<body>
+  <h1>Weather Today</h1>
+  <% data.forEach(element => { %>
+    <div class="weather">
+      <div class="container">
+        <h2>
+          <%= element.location %>
+        </h2>
+      </div>
+      <div class="container">
+        <img class="logo" src= "<%=element.logo %>" alt="weather icon">
+      </div>  
+      <div class="container">
+        <p><%= element.weather %></p>
+      </div>  
+      <div class="container">
+        <p>
+          <%= element.temp %>°C
+        </p>
+      </div>  
+    </div>
+  <%}); %>
+  <form action="/upcoming" method="post">
+    <input id="upcoming" type="submit" value="Upcoming">
+  </form>
+</body>
+
+</html>

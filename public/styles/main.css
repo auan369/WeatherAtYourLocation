@@ -1,0 +1,73 @@
+/* Give me styling for my website */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 5rem;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: "Gloria Hallelujah"
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2rem;
+  font-family: "Gloria Hallelujah"
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.weather img {
+  width: 10rem;
+  height: 10rem;
+}
+.weather img:hover {
+    /* border:#0056b3 2px solid; */
+    filter: contrast(0.5);
+} 
+
+.weather img:hover:before,
+.weather img:hover:after {
+  animation: none;
+  opacity: 0;
+}
+
+.weather h3 {
+  margin-top: 10px;
+}
+.weather p {
+  margin-top: 10px;
+}
+.weather button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.weather button:hover {
+  background-color: #0056b3;
+}
