@@ -1,13 +1,14 @@
 <!-- Generate a README -->
+<!-- Update that I have a page for 3h forecasts -->
 # WeatherAtYourLocation
 
-WeatherAtYourLocation is a web application that provides real-time weather information based on your current location.
-
+WeatherAtYourLocation is a web application that provides real-time weather information based on your current location. 
 ## Features
 
 - Real-time weather updates
 - Detailed weather information including temperature, humidity, and wind speed
 - User-friendly interface
+- 3 hour reports for the next 5 days
 
 ## Installation
 
