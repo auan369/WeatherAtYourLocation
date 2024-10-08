@@ -2,7 +2,8 @@
 <!-- Update that I have a page for 3h forecasts -->
 # WeatherAtYourLocation
 
-WeatherAtYourLocation is a web application that provides real-time weather information based on your current location. 
+WeatherAtYourLocation is a web application that provides real-time weather information based on your current location. It employs the [IPinfo API](https://ipinfo.io/) the get the user's locations based on their IP address and the [OpenWeather API](https://openweathermap.org/) to get the current weather and weather forecast for their location.
+
 ## Features
 
 - Real-time weather updates
@@ -29,6 +30,10 @@ WeatherAtYourLocation is a web application that provides real-time weather infor
     ```sh
     npm install
     ```
+
+## Demonstration
+<!-- add a gif here -->
+![GIF Demo of Site](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
 ## Usage
 

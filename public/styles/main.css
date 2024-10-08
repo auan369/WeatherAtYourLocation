@@ -5,6 +5,13 @@ body {
   margin: 0;
   padding: 0;
 }
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
 h1 {
   text-align: center;
   margin-top: 50px;
@@ -78,3 +85,12 @@ p {
   background-color: #0056b3;
 }
 
+#button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
