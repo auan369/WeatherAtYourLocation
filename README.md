@@ -33,7 +33,7 @@ WeatherAtYourLocation is a web application that provides real-time weather infor
 
 ## Demonstration
 <!-- add a gif here -->
-![GIF Demo of Site](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![GIF Demo of Site](https://github.com/auan369/WeatherAtYourLocation/blob/main/media/demo.gif)
 
 ## Usage
 
