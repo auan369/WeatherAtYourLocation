@@ -31,10 +31,6 @@ WeatherAtYourLocation is a web application that provides real-time weather infor
     npm install
     ```
 
-## Demonstration
-<!-- add a gif here -->
-![GIF Demo of Site](https://github.com/auan369/WeatherAtYourLocation/blob/main/media/demo.gif)
-
 ## Usage
 
 1. Start the development server:
@@ -44,6 +40,10 @@ WeatherAtYourLocation is a web application that provides real-time weather infor
     ```
 
 2. Open your browser and go to `http://localhost:3000`
+
+## Demonstration
+<!-- add a gif here -->
+![GIF Demo of Site](https://github.com/auan369/WeatherAtYourLocation/blob/main/media/demo.gif)
 
 ## Contact
 
