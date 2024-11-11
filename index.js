@@ -12,6 +12,9 @@ const APIkey = "a33eac12e90fea6e75c56ac63b059ba9";
 app.use(bodyParser.urlencoded({ extended: true }));
 // 3. Use the public folder for static files.
 
+// app.set('view engine','ejs'); 
+
+// app.engine('ejs', require('ejs').__express);
 
 app.use(express.static("public"));
 app.get("/", async (req, res) => {
