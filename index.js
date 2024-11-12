@@ -2,6 +2,7 @@ import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
 import http from "http";
+import ejs from "ejs";
 
 // 2. Create an express app and set the port number.
 const app = express();
@@ -17,6 +18,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.engine('ejs', require('ejs').__express);
 
 app.use(express.static("public"));
+
+app.set("view engine", "ejs");
+app.engine("ejs", ejs.__express); // Add this line to set the templating engine
+app.set("views", "./views"); // Assuming 'views' is in same level as root folder
+
 app.get("/", async (req, res) => {
     try {
         const ipResponse = await axios.post(ipAPI);
